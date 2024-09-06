@@ -4,6 +4,7 @@ import { useState } from 'react';
 function Square() {
   const [value, setValue] = useState('');
 
+
   // change the original value
   function handleClick() {
     setValue('X')
